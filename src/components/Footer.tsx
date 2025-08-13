@@ -15,10 +15,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-emerald-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">E</span>
-              </div>
-              <h3 className="text-2xl font-bold">Ekonex</h3>
+              <img
+                src="/ekonex-logo.png"
+                alt="Ekonex Logo"
+                className="h-8 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-gray-300 leading-relaxed">
               Profesjonalna gospodarka odpadami dla firm i instytucji. 
@@ -28,21 +29,21 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-emerald-600 transition-colors"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#257e33] transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-emerald-600 transition-colors"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#257e33] transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-emerald-600 transition-colors"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#257e33] transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter className="w-5 h-5" />
@@ -56,31 +57,37 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+                <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Wywóz odpadów komunalnych
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+                <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Wywóz odpadów przemysłowych
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+                <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Recykling i segregacja
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+                <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Wynajem kontenerów
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+                <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Doradztwo ekologiczne
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+                <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Usługi awaryjne 24/7
                 </a>
               </li>
@@ -94,7 +101,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => document.getElementById('o-nas')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors text-left"
+                  className="text-gray-300 hover:text-[#257e33] transition-colors text-left"
                 >
                   O firmie
                 </button>
@@ -102,7 +109,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => document.getElementById('uslugi')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors text-left"
+                  className="text-gray-300 hover:text-[#257e33] transition-colors text-left"
                 >
                   Usługi
                 </button>
@@ -110,7 +117,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => document.getElementById('opinie')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors text-left"
+                  className="text-gray-300 hover:text-[#257e33] transition-colors text-left"
                 >
                   Opinie klientów
                 </button>
@@ -118,7 +125,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => document.getElementById('faq')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors text-left"
+                  className="text-gray-300 hover:text-[#257e33] transition-colors text-left"
                 >
                   FAQ
                 </button>
@@ -126,13 +133,13 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors text-left"
+                  className="text-gray-300 hover:text-[#257e33] transition-colors text-left"
                 >
                   Kontakt
                 </button>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+                <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Polityka prywatności
                 </a>
               </li>
@@ -144,21 +151,21 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Kontakt</h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-emerald-400 mt-1 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-[#257e33] mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300">ul. Przykładowa 123</p>
                   <p className="text-gray-300">00-001 Warszawa</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-emerald-400 flex-shrink-0" />
+                <Phone className="w-5 h-5 text-[#257e33] flex-shrink-0" />
                 <div>
                   <p className="text-gray-300">+48 123 456 789</p>
                   <p className="text-xs text-gray-500">Dostępny 24/7</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-emerald-400 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-[#257e33] flex-shrink-0" />
                 <div>
                   <p className="text-gray-300">kontakt@ekonex.pl</p>
                   <p className="text-xs text-gray-500">Odpowiedź w 2h</p>
@@ -176,17 +183,20 @@ const Footer = () => {
             </div>
             <div className="flex flex-wrap items-center space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-emerald-400 transition-colors">
+              <a href="#" className="hover:text-[#257e33] transition-colors">
                 Regulamin
               </a>
               <a href="#" className="hover:text-emerald-400 transition-colors">
+              <a href="#" className="hover:text-[#257e33] transition-colors">
                 Polityka prywatności
               </a>
               <a href="#" className="hover:text-emerald-400 transition-colors">
+              <a href="#" className="hover:text-[#257e33] transition-colors">
                 Pliki cookies
               </a>
               <button
                 onClick={scrollToTop}
-                className="hover:text-emerald-400 transition-colors"
+                className="hover:text-[#257e33] transition-colors"
               >
                 Powrót do góry ↑
               </button>

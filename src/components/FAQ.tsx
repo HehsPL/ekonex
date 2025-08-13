@@ -48,10 +48,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <HelpCircle className="w-8 h-8 text-emerald-600" />
+          <div className="w-16 h-16 bg-[#257e33]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <HelpCircle className="w-8 h-8 text-[#257e33]" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#071019] mb-4">
             Najczęściej zadawane pytania
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
@@ -71,11 +71,11 @@ const FAQ = () => {
                 onClick={() => toggleFAQ(index)}
                 className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
               >
-                <h3 className="text-lg font-semibold text-gray-900 pr-8">
+                <h3 className="text-lg font-semibold text-[#071019] pr-8">
                   {faq.question}
                 </h3>
                 {openIndex === index ? (
-                  <ChevronUp className="w-6 h-6 text-emerald-600 flex-shrink-0" />
+                  <ChevronUp className="w-6 h-6 text-[#257e33] flex-shrink-0" />
                 ) : (
                   <ChevronDown className="w-6 h-6 text-gray-400 flex-shrink-0" />
                 )}
@@ -101,7 +101,7 @@ const FAQ = () => {
           </p>
           <button
             onClick={() => document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+            className="bg-[#257e33] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#1e6329] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
           >
             Zadaj pytanie specjaliście
           </button>

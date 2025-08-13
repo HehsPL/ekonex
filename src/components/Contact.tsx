@@ -99,12 +99,13 @@ const Contact = () => {
   if (isSubmitted) {
     return (
       <section id="kontakt" className="py-20 bg-emerald-50">
+      <section id="kontakt" className="py-20 bg-[#257e33]/5">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <CheckCircle className="w-8 h-8 text-emerald-600" />
+            <div className="w-16 h-16 bg-[#257e33]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <CheckCircle className="w-8 h-8 text-[#257e33]" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-[#071019] mb-4">
               Dziękujemy za kontakt!
             </h2>
             <p className="text-xl text-gray-600 mb-8">
@@ -113,7 +114,7 @@ const Contact = () => {
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <p className="text-gray-700">
                 W pilnych sprawach zadzwoń pod numer: 
-                <strong className="text-emerald-600 ml-2">+48 123 456 789</strong>
+                <strong className="text-[#257e33] ml-2">+48 123 456 789</strong>
               </p>
             </div>
           </div>
@@ -123,11 +124,11 @@ const Contact = () => {
   }
 
   return (
-    <section id="kontakt" className="py-20 bg-emerald-50">
+    <section id="kontakt" className="py-20 bg-[#257e33]/5">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#071019] mb-4">
             Skontaktuj się z nami
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
@@ -140,49 +141,49 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="lg:col-span-1 space-y-8">
             <div className="bg-white p-8 rounded-2xl shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-xl font-semibold text-[#071019] mb-6">
                 Dane kontaktowe
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-emerald-600" />
+                  <div className="w-12 h-12 bg-[#257e33]/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-[#257e33]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Telefon</h4>
+                    <h4 className="font-semibold text-[#071019]">Telefon</h4>
                     <p className="text-gray-600">+48 123 456 789</p>
                     <p className="text-sm text-gray-500">Dostępny 24/7</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-6 h-6 text-emerald-600" />
+                  <div className="w-12 h-12 bg-[#257e33]/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-6 h-6 text-[#257e33]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Email</h4>
+                    <h4 className="font-semibold text-[#071019]">Email</h4>
                     <p className="text-gray-600">kontakt@ekonex.pl</p>
                     <p className="text-sm text-gray-500">Odpowiedź w ciągu 2h</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-emerald-600" />
+                  <div className="w-12 h-12 bg-[#257e33]/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-[#257e33]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Adres</h4>
+                    <h4 className="font-semibold text-[#071019]">Adres</h4>
                     <p className="text-gray-600">ul. Przykładowa 123</p>
                     <p className="text-gray-600">00-001 Warszawa</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-6 h-6 text-emerald-600" />
+                  <div className="w-12 h-12 bg-[#257e33]/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-6 h-6 text-[#257e33]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Godziny pracy</h4>
+                    <h4 className="font-semibold text-[#071019]">Godziny pracy</h4>
                     <p className="text-gray-600">Pon-Pt: 7:00 - 18:00</p>
                     <p className="text-gray-600">Sob: 8:00 - 14:00</p>
                     <p className="text-sm text-gray-500">Awarie: 24/7</p>
@@ -192,16 +193,16 @@ const Contact = () => {
             </div>
 
             {/* Quick Contact */}
-            <div className="bg-emerald-600 text-white p-8 rounded-2xl">
+            <div className="bg-[#257e33] text-white p-8 rounded-2xl">
               <h3 className="text-xl font-semibold mb-4">
                 Potrzebujesz natychmiastowej pomocy?
               </h3>
-              <p className="text-emerald-100 mb-6">
+              <p className="text-white/80 mb-6">
                 Zadzwoń na naszą infolinię i otrzymaj pomoc eksperta.
               </p>
               <a
                 href="tel:+48123456789"
-                className="bg-white text-emerald-600 px-6 py-3 rounded-full font-semibold hover:bg-emerald-50 transition-colors inline-flex items-center space-x-2"
+                className="bg-white text-[#257e33] px-6 py-3 rounded-full font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
               >
                 <Phone className="w-5 h-5" />
                 <span>Zadzwoń teraz</span>
@@ -212,7 +213,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="lg:col-span-2">
             <div className="bg-white p-8 rounded-2xl shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-xl font-semibold text-[#071019] mb-6">
                 Otrzymaj bezpłatną wycenę
               </h3>
               
@@ -228,7 +229,7 @@ const Contact = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#257e33] focus:border-[#257e33] transition-colors ${
                         errors.name ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="Jan Kowalski"
@@ -251,7 +252,7 @@ const Contact = () => {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#257e33] focus:border-[#257e33] transition-colors"
                       placeholder="ABC Sp. z o.o."
                     />
                   </div>
@@ -268,7 +269,7 @@ const Contact = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#257e33] focus:border-[#257e33] transition-colors ${
                         errors.email ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="jan.kowalski@example.com"
@@ -291,7 +292,7 @@ const Contact = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#257e33] focus:border-[#257e33] transition-colors ${
                         errors.phone ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="+48 123 456 789"
@@ -314,7 +315,7 @@ const Contact = () => {
                     name="serviceType"
                     value={formData.serviceType}
                     onChange={handleChange}
-                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors ${
+                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#257e33] focus:border-[#257e33] transition-colors ${
                       errors.serviceType ? 'border-red-300' : 'border-gray-300'
                     }`}
                   >
@@ -341,7 +342,7 @@ const Contact = () => {
                     rows={5}
                     value={formData.message}
                     onChange={handleChange}
-                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors ${
+                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#257e33] focus:border-[#257e33] transition-colors ${
                       errors.message ? 'border-red-300' : 'border-gray-300'
                     }`}
                     placeholder="Opisz swoje potrzeby, rodzaj odpadów, częstotliwość wywozu itp."
@@ -357,7 +358,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-emerald-700 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
+                  className="w-full bg-[#257e33] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#1e6329] transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
                 >
                   {isSubmitting ? (
                     <>

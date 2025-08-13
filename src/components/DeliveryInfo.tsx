@@ -53,7 +53,7 @@ const DeliveryInfo = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#071019] mb-4">
             Realizacja usług i harmonogram
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
@@ -65,17 +65,17 @@ const DeliveryInfo = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Service Process */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">
+            <h3 className="text-2xl font-bold text-[#071019] mb-8">
               Jak przebiega współpraca
             </h3>
             <div className="space-y-8">
               {serviceSteps.map((step, index) => (
                 <div key={index} className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">
+                  <div className="w-12 h-12 bg-[#257e33] text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">
                     {step.step}
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                    <h4 className="text-lg font-semibold text-[#071019] mb-2">
                       {step.title}
                     </h4>
                     <p className="text-gray-600 leading-relaxed">
@@ -90,18 +90,18 @@ const DeliveryInfo = () => {
           {/* Features and Guarantees */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-8">
+              <h3 className="text-2xl font-bold text-[#071019] mb-8">
                 Gwarancje jakości
               </h3>
               <div className="grid grid-cols-2 gap-6">
                 {deliveryFeatures.map((feature, index) => {
                   const IconComponent = feature.icon;
                   return (
-                    <div key={index} className="text-center p-6 bg-emerald-50 rounded-xl">
-                      <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <IconComponent className="w-6 h-6 text-emerald-600" />
+                    <div key={index} className="text-center p-6 bg-[#257e33]/5 rounded-xl">
+                      <div className="w-12 h-12 bg-[#257e33]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <IconComponent className="w-6 h-6 text-[#257e33]" />
                       </div>
-                      <h4 className="font-semibold text-gray-900 mb-2">
+                      <h4 className="font-semibold text-[#071019] mb-2">
                         {feature.title}
                       </h4>
                       <p className="text-sm text-gray-600">
@@ -115,7 +115,7 @@ const DeliveryInfo = () => {
 
             {/* Terms and Conditions */}
             <div className="bg-gray-50 p-8 rounded-2xl">
-              <h4 className="text-xl font-semibold text-gray-900 mb-6">
+              <h4 className="text-xl font-semibold text-[#071019] mb-6">
                 Warunki współpracy
               </h4>
               <div className="space-y-4">
@@ -128,7 +128,7 @@ const DeliveryInfo = () => {
                   'Ubezpieczenie OC i gwarancja jakości'
                 ].map((item, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-emerald-600 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-[#257e33] flex-shrink-0" />
                     <span className="text-gray-700">{item}</span>
                   </div>
                 ))}
@@ -136,14 +136,14 @@ const DeliveryInfo = () => {
             </div>
 
             {/* Emergency Contact */}
-            <div className="bg-emerald-600 text-white p-8 rounded-2xl">
+            <div className="bg-[#257e33] text-white p-8 rounded-2xl">
               <div className="flex items-center space-x-3 mb-4">
                 <Shield className="w-8 h-8" />
                 <h4 className="text-xl font-semibold">
                   Obsługa awaryjna 24/7
                 </h4>
               </div>
-              <p className="text-emerald-100 mb-4">
+              <p className="text-white/80 mb-4">
                 W przypadku sytuacji awaryjnych jesteśmy dostępni 
                 przez całą dobę, 7 dni w tygodniu.
               </p>

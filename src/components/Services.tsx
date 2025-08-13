@@ -46,7 +46,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#071019] mb-4">
             Nasze Usługi
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
@@ -62,12 +62,12 @@ const Services = () => {
             return (
               <div
                 key={index}
-                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 border border-gray-100 hover:border-emerald-200 group"
+                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 border border-gray-100 hover:border-[#257e33]/30 group"
               >
-                <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors duration-300">
-                  <IconComponent className="w-8 h-8 text-emerald-600 group-hover:text-white transition-colors duration-300" />
+                <div className="w-16 h-16 bg-[#257e33]/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-[#257e33] transition-colors duration-300">
+                  <IconComponent className="w-8 h-8 text-[#257e33] group-hover:text-white transition-colors duration-300" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                <h3 className="text-xl font-semibold text-[#071019] mb-4">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -76,7 +76,7 @@ const Services = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center space-x-2 text-sm text-gray-600">
-                      <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
+                      <div className="w-2 h-2 bg-[#257e33] rounded-full"></div>
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -90,7 +90,7 @@ const Services = () => {
         <div className="text-center mt-12">
           <button
             onClick={() => document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+            className="bg-[#257e33] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#1e6329] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
           >
             Skontaktuj się z nami
           </button>

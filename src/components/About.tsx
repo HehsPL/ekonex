@@ -38,12 +38,12 @@ const About = () => {
           {/* Content */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#071019] mb-6">
                 O firmie Ekonex
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  <strong className="text-gray-900">Ekonex</strong> to dynamicznie rozwijająca się firma 
+                  <strong className="text-[#071019]">Ekonex</strong> to dynamicznie rozwijająca się firma 
                   specjalizująca się w kompleksowej gospodarce odpadami. Od ponad 15 lat świadczymy 
                   usługi najwyższej jakości dla przedsiębiorstw, instytucji publicznych i prywatnych 
                   klientów w całej Polsce.
@@ -67,10 +67,10 @@ const About = () => {
                 const IconComponent = achievement.icon;
                 return (
                   <div key={index} className="text-center">
-                    <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <IconComponent className="w-6 h-6 text-emerald-600" />
+                    <div className="w-12 h-12 bg-[#257e33]/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <IconComponent className="w-6 h-6 text-[#257e33]" />
                     </div>
-                    <h3 className="font-semibold text-gray-900 text-sm mb-1">
+                    <h3 className="font-semibold text-[#071019] text-sm mb-1">
                       {achievement.title}
                     </h3>
                     <p className="text-xs text-gray-600">{achievement.description}</p>
@@ -91,14 +91,14 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
             </div>
 
-            <div className="bg-emerald-50 p-8 rounded-2xl">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6">
+            <div className="bg-[#257e33]/5 p-8 rounded-2xl">
+              <h3 className="text-xl font-semibold text-[#071019] mb-6">
                 Dlaczego warto wybrać Ekonex?
               </h3>
               <div className="grid grid-cols-1 gap-3">
                 {advantages.map((advantage, index) => (
                   <div key={index} className="flex items-start space-x-3">
-                    <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-[#257e33] mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700 text-sm">{advantage}</span>
                   </div>
                 ))}
