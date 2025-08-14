@@ -56,37 +56,31 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Nasze usługi</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Wywóz odpadów komunalnych
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Wywóz odpadów przemysłowych
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Recykling i segregacja
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Wynajem kontenerów
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Doradztwo ekologiczne
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <a href="#" className="text-gray-300 hover:text-[#257e33] transition-colors">
                   Usługi awaryjne 24/7
                 </a>
@@ -182,15 +176,12 @@ const Footer = () => {
               © {currentYear} Ekonex. Wszystkie prawa zastrzeżone.
             </div>
             <div className="flex flex-wrap items-center space-x-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-emerald-400 transition-colors">
               <a href="#" className="hover:text-[#257e33] transition-colors">
                 Regulamin
               </a>
-              <a href="#" className="hover:text-emerald-400 transition-colors">
               <a href="#" className="hover:text-[#257e33] transition-colors">
                 Polityka prywatności
               </a>
-              <a href="#" className="hover:text-emerald-400 transition-colors">
               <a href="#" className="hover:text-[#257e33] transition-colors">
                 Pliki cookies
               </a>
@@ -209,5 +200,3 @@ const Footer = () => {
 };
 
 export default Footer;
-  )
-}
